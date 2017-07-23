@@ -11670,13 +11670,13 @@ package type ST</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="0.1Ω"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="4.7kΩ"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="4.7kΩ"/>
-<part name="D3" library="diode" deviceset="ZENER-DIODE" device="SMB"/>
+<part name="D3" library="diode" deviceset="ZENER-DIODE" device="SMB" value="3.3V"/>
 <part name="Q1" library="BSH203" deviceset="BSH203" device=""/>
 <part name="U1" library="SparkFun-Sensors" deviceset="ISL29125" device=""/>
 <part name="IC2" library="silabs" deviceset="SI114*" device="" technology="5"/>
 <part name="U$5" library="redan" deviceset="INA226" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="4.7kΩ"/>
-<part name="D1" library="PP_Passives" deviceset="DIODE" device="_B130-13-F"/>
+<part name="D1" library="PP_Passives" deviceset="DIODE" device="_B130-13-F" value="B130-13-F"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="NoBattery, only Capacitor"/>
 <part name="U$6" library="IXYS_Solar_cells" deviceset="KXOB22-01X8F_EXTENDED_PADS" device=""/>
 <part name="U$1" library="IXYS_Solar_cells" deviceset="KXOB22-01X8F_EXTENDED_PADS" device=""/>
@@ -11691,8 +11691,8 @@ package type ST</description>
 <sheets>
 <sheet>
 <plain>
-<text x="86.36" y="66.04" size="1.016" layer="91">50mV Drop</text>
-<text x="93.98" y="60.96" size="1.016" layer="91">100mV Drop</text>
+<text x="86.36" y="66.04" size="0.6096" layer="91">10-50mV Drop</text>
+<text x="93.98" y="60.96" size="0.6096" layer="91">200mV Drop</text>
 <text x="175.26" y="78.74" size="1.778" layer="91">Pullups</text>
 <text x="149.86" y="111.76" size="1.778" layer="91">Address 0x52 and 0x53(upper)</text>
 </plain>
